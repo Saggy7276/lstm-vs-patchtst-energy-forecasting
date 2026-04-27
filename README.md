@@ -102,6 +102,7 @@ The notebook generates comprehensive evaluation metrics and visualizations:
 3. **Residual Analysis**: Error distribution analysis
 4. **Performance Metrics**: MAE, MSE, RMSE, MAPE comparison
 5. **Inference Speed**: Prediction time benchmarking
+![Model Comparison](model_comparison.png)
 
 ### Sample Metrics Structure
 ```
