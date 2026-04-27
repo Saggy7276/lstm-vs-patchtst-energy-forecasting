@@ -102,21 +102,26 @@ The notebook generates comprehensive evaluation metrics and visualizations:
 3. **Residual Analysis**: Error distribution analysis
 4. **Performance Metrics**: MAE, MSE, RMSE, MAPE comparison
 5. **Inference Speed**: Prediction time benchmarking
+
+
 ![Model Comparison](model_comparison.png)
 
-### Sample Metrics Structure
-```
-LSTM:
-  - MAE: [value] MW
-  - RMSE: [value] MW
-  - MAPE: [value]%
-  - Inference Time: [value] ms
+### Performance Metrics
 
-PatchTST:
-  - MAE: [value] MW
-  - RMSE: [value] MW
-  - MAPE: [value]%
-  - Inference Time: [value] ms
+```
+LSTM Performance:
+  - MAE:  0.0292
+  - MSE:  0.0017
+  - RMSE: 0.0414
+  - R²:   0.9981
+  - MAPE: 19.04%
+
+PatchTST Performance:
+  - MAE:  0.0227
+  - MSE:  0.0010
+  - RMSE: 0.0309
+  - R²:   0.9989
+  - MAPE: 14.63%
 ```
 
 ## 💾 Output Files
